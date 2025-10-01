@@ -175,20 +175,19 @@ export class Estoque {
     }
 }
 
-// ========================================================================
-//A EXECUÇÃO (CÓDIGO PRINCIPAL / MENU)
-// ========================================================================
+
+//Aqui é q Execução o MENU
 console.log(">> Iniciando Sistema de Monitoramento de Estoque <<");
 const estoque = new Estoque();
 
 while (true) {
-    console.log("\n===== MENU PRINCIPAL =====");
+    console.log("\n...... MENU PRINCIPAL .......");
     console.log("1. Cadastrar Produto");
     console.log("2. Registrar Entrada");
     console.log("3. Registrar Saída");
     console.log("4. Gerar Relatório");
     console.log("5. Sair");
-    console.log("==========================");
+    console.log(".................................");
 
     const opcao = readlineSync.question("Escolha uma opcao: ");
 
