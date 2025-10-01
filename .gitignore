@@ -1,0 +1,15 @@
+# Ignorar a pasta de dependências do Node (a mais importante)
+/node_modules
+
+# Ignorar a pasta com o código JavaScript compilado
+/dist
+
+# Ignorar arquivos JavaScript gerados na raiz (caso aconteça)
+*.js
+*.js.map
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de sistema do macOS
+.DS_Store

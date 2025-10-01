@@ -1,4 +1,3 @@
-
 import readlineSync = require('readline-sync');
 
 // --- CLASSE PRODUTO ---
@@ -179,7 +178,7 @@ export class Estoque {
 // ========================================================================
 //A EXECUÇÃO (CÓDIGO PRINCIPAL / MENU)
 // ========================================================================
-/*console.log(">> Iniciando Sistema de Monitoramento de Estoque <<");
+console.log(">> Iniciando Sistema de Monitoramento de Estoque <<");
 const estoque = new Estoque();
 
 while (true) {
@@ -241,4 +240,4 @@ while (true) {
         default:
             console.log("Opção inválida. Tente novamente.");
     }
-}*/
+}
