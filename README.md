@@ -46,12 +46,12 @@ Para a construção deste sistema, foram aplicados os seguintes pilares da POO:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [URL_DO_SEU_REPOSITÓRIO]
+    git clone https://github.com/LeandroSampaio001/PorjetoEstoque.git
     ```
 
 2.  **Navegue até a pasta do projeto:**
     ```bash
-    cd projeto-estoque-softex
+    cd 
     ```
 
 3.  **Instale as dependências:**
